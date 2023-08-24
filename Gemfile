@@ -9,7 +9,7 @@ gem 'http'
 gem 'jbuilder', '~> 2.7'
 gem 'puma', '~> 4.1'
 gem "nokogiri", ">= 1.10.8"
-gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.5'
 gem 'sprockets', '< 4'
 gem 'sassc-rails'
 gem 'faker'
@@ -26,7 +26,7 @@ end
 group :development, :test do
   gem 'amazing_print'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.8.0'
   gem 'grade_runner', github: 'firstdraft/grade_runner'
   gem 'pry-rails'
   gem 'sqlite3', '~> 1.4.1'
@@ -39,7 +39,7 @@ group :development do
   gem 'better_errors', '2.6'
   gem 'binding_of_caller'
   gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'winter-2020'
-  gem 'rails_db', '2.3.1'
+  gem 'rails_db', '2.4.0'
 
 end
 
@@ -47,7 +47,7 @@ group :test do
   gem 'capybara'
   gem 'factory_bot_rails'
   gem 'rspec-html-matchers'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 6.0.0'
   gem 'webmock'
 end
 
