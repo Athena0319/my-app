@@ -20,7 +20,7 @@ group :development do
   gem 'rufo'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'spring'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 4.2.1'
 end
 
 group :development, :test do
