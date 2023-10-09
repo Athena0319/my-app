@@ -9,7 +9,7 @@ gem 'http'
 gem 'jbuilder', '~> 2.7'
 gem 'puma', '~> 4.1'
 gem "nokogiri", ">= 1.10.8"
-gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
+gem 'rails', '~> 7.1.0'
 gem 'sprockets', '< 4'
 gem 'sassc-rails'
 gem 'faker'
@@ -39,7 +39,7 @@ group :development do
   gem 'better_errors', '2.6'
   gem 'binding_of_caller'
   gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'winter-2020'
-  gem 'rails_db', '2.3.1'
+  gem 'rails_db', '2.4.0'
 
 end
 
