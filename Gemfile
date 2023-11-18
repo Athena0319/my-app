@@ -45,7 +45,7 @@ end
 
 group :test do
   gem 'capybara'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.3.0'
   gem 'rspec-html-matchers'
   gem 'rspec-rails'
   gem 'webmock'
